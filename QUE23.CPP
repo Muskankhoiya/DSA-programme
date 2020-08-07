@@ -4,23 +4,23 @@
 void main()
 {
 clrscr();
-int arr[30],n,k,j;
+int arr[30],size,k,j;
 cout<<"How many element:";
-cin>>n;
+cin>>size;
 cout<<"\nEnter elemenrs of array:\n";
-for(int i=0;i<n;i++)
+for(int i=0;i<size;i++)
 cin>>arr[i];
-for(i=0;i<n;i++) {
+for(i=0;i<size;i++) {
 
-for(j=i+1;j<n;j++)
+for(j=i+1;j<size;j++)
 {
  if(arr[i]==arr[j])
  {
-  for(k=j;k<n;k++)
+  for(k=j;k<size;k++)
   {
   arr[k]=arr[k+1];
   }
-  n--;
+  size--;
   j--;
 }
 }
@@ -28,7 +28,7 @@ for(j=i+1;j<n;j++)
 
 
  cout<<"\narray element after deleting duplicate ones:";
-for(i=0;i<n;i++)
+for(i=0;i<size;i++)
  cout<<arr[i]<<" ";
 
  getch();
