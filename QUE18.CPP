@@ -1,4 +1,4 @@
-//Wa[ to multiple two matrices
+//Wap to multiple two matrices
 #include <iostream.h>
 #include <conio.h>
 void main()
