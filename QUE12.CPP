@@ -27,11 +27,11 @@ for(i=0;i<row;i++)
 {
   for(j=0;j<col;j++)
   {
-   if(i==j || i+j==2)
+   if(i==j || i+j==col-1)
     arr[i][j]=arrA[i][j]*arrA[i][j];
     else
     arr[i][j]=arrA[i][j];
-    cout<<arr[i][j]<<" ";
+    cout<<arr[i][j]<<" \t";
     }
     cout<<endl;
     }
