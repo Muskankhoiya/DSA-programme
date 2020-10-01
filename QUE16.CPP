@@ -25,7 +25,7 @@ for(j=0;j<col;j++)
 cin>>arrB[i][j];
 }
 }
-cout<<"matrix A";
+cout<<"matrix A" ;
  for(i=0;i<row;i++)
  {
   cout<<"\n";
